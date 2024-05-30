@@ -1,0 +1,58 @@
+#divexample{
+    color: rgb(114, 114, 103) ;
+    background-color: rgb(188, 188, 244);
+  }
+  #sample{
+    color: lightblue ;
+    background-color: #999999;
+  }
+  #extra{
+    color: rgb(47, 80, 47) ;
+    background-color: #19b619;
+  }
+  #MICT{
+    color: purple ;
+    background-color: #ff00ff;
+  }
+  #RR{
+    color: #8a9ba5 ;
+    background-color: beige;
+  }
+  #SPM{
+    color:#841532;
+    background-color: red;
+  }
+  #SCT{
+    color: #05588b ;
+    background-color: aquamarine;
+  }
+  #AM{
+    color: #034e03;
+    background-color: #d8e830;
+  }
+  #GD{
+    color:#034e03;
+    background-color: #d8e830;
+  }
+  #IT{
+    color:#034e03;
+    background-color: #d8e830;
+  }
+  a:link{
+    color: red;
+  }
+  a:hover{
+    color: yellow;
+  }
+  a:visited{
+    color: green;
+  }
+  .AM{
+    color: blue;
+  }
+  .GD{
+    color: blue;
+  }
+  .IT{
+    color: blue;
+  }
