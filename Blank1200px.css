@@ -11,7 +11,8 @@ body {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
-  height: 1200px;
+  height: 1315px;
+  
 }
 
 header{
@@ -21,12 +22,19 @@ header{
   text-align: center;
   font-size: 35px;
   padding: 0;
+  border-radius: 15px;
+  font-family: "Abel", sans-serif;
+  box-shadow: -10px -10px 10px #0f602ed3; /* x, y, blur, color */
 }
 
 main{
   grid-column: span 12;
   display: grid;
   grid-template-columns:1fr 1fr 1fr ;
+}
+
+.beach{
+  box-shadow: 10px 10px 10px #a8a8a8; /* x, y, blur, color */
 }
 
 .nobullets{
@@ -42,10 +50,21 @@ h2{
   font-size: 30px;
 }
 
-nav{
-  grid-column: span 12;
+nav ul{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav{
+  grid-column: span 12;
+}
+
+nav a{
+  transition: background-color 2s;
+}
+
+nav a:hover{
+  background-color: rgb(240, 237, 185);
 }
 
 ul li a{
@@ -58,11 +77,14 @@ ul li a{
 #picture{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr;
+  
 }
 
 footer{
   grid-column: span 12;
   background-color: #29760E;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px #0f602ed3; /* x, y, blur, color */
 }
 
 #line{
