@@ -12,7 +12,6 @@ body {
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 24px;
   height: 1650px;
-  
 }
 
 header{
