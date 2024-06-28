@@ -24,6 +24,7 @@ header{
   border-radius: 15px;
   font-family: "Abel", sans-serif;
   box-shadow: -10px -10px 10px #0f602ed3; /* x, y, blur, color */
+  height:200px;
 }
 
 main{
@@ -34,6 +35,7 @@ main{
 
 .beach{
   box-shadow: 10px 10px 10px #a8a8a8; /* x, y, blur, color */
+  padding-left: 30px;
 }
 
 .nobullets{
@@ -63,11 +65,11 @@ nav a{
 }
 
 nav a:hover{
-  background-color: rgb(240, 237, 185);
+  background-color: rgb(232, 231, 211);
 }
 
 ul li a{
-  color: black;
+  color: rgb(67, 0, 0);
   font-size: 30px;
   text-decoration: none;
   font-weight: bold;
